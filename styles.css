@@ -1,5 +1,10 @@
+body{
+	background-color:#39c;
+	background-image: url('cat.png');
+	 background-repeat: no-repeat;
+	}
 h1 {
-	color: Red;
+	color: #12C;
 }
 
 p {
@@ -10,4 +15,9 @@ p {
 Font-size: 16pt;
 Font-weight: Bold;
 font-style: italic;
+}
+
+img{
+	width: 100%;
+	filter: invert(100%);
 }
