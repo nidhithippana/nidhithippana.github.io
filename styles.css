@@ -1,16 +1,16 @@
 body{
-	background-color:#39c;
+	background-color:black;
 	background-image: url('maxresdefault.jpg');
 	 background-repeat: no-repeat;
 	
 	}
 h1 {
-	color: red;
+	color: white;
 }
 
 p {
 	text-indent:5pt;
-	color: red;
+	color: white;
 }
 
 #hi {
@@ -23,3 +23,16 @@ img{
 	width: 100%;
 	filter: invert(100%);
 }
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
