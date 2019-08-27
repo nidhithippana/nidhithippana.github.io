@@ -1,14 +1,16 @@
 body{
 	background-color:#39c;
-	background-image: url('cat.png');
+	background-image: url('maxresdefault.jpg');
 	 background-repeat: no-repeat;
+	
 	}
 h1 {
-	color: #12C;
+	color: red;
 }
 
 p {
 	text-indent:5pt;
+	color: red;
 }
 
 #hi {
