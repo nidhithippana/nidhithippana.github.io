@@ -13,20 +13,20 @@
   <a class="active" href="index.html">Home</a>
   <a href="pictures.html">Pictures</a>
   <a href="#about">About</a>
-  <a href="#contact">Login</a>
+  <a href="#contact">Contact</a>
   <a href="surveypg.html">Survey</a>
 </div>
 
 		
        <br><br>
 <form>
-Username: <input type="text" name="username">
-Password: <input type= "password" name = "pwd">
-<input type= "submit" value= "submit">
+Username: <input type="email" name="username" id="email">
+Password: <input type= "password" name = "pwd" id="pass1">
+<input type= "submit" value= "submit" onclick="login()">
 </form>
 <h2>Create New Acccount</h2>
 <form>
-Firstname: <input type="text" name="firstname"><br><br>
+Firstname: <input type="text" name="firstname" id="fname"><br><br>
 Lastname: <input type= "text" name = "lastname"><br><br>
 Email: <input type= "text" name = "mail"><br><br>
 </form>
@@ -44,4 +44,5 @@ Gender:
 		</UL>
         
 	</BODY>
+    <script src="index.js"></script>
 </HTML>
